@@ -32,7 +32,7 @@ def app():
     # Render the gradient text
     st.markdown(gradient_text_html, unsafe_allow_html=True)
     st.write('Caring for you always!! ')
-    st.image('divider.png')
+    
 
     with st.form("speech"):
 
