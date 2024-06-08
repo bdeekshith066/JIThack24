@@ -222,15 +222,14 @@ def app():
 
     with col2:
         with st.form("Finger"):
-            st.image('fingerr.jpg')
-            finger_button = st.form_submit_button("Finger")
+            st.image('fingerr.jpg')finger_button = st.form_submit_button("Finger")
 
             if finger_button:
                 run_detection()
 
     with col4:
         with st.form("gamify"):
-            st.image('sukha.jpg')
+            
             gamify_button = st.form_submit_button("Gamify - Physio")
 
             if gamify_button:
