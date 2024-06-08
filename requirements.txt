@@ -4,5 +4,5 @@ cvzone
 mediapipe
 numpy
 
-speech_recognition
+
 googletrans
