@@ -163,7 +163,7 @@ img {
             
 
 
-    st.image('divider.png')
+   
     st.write('')
     st.write('')
     col1,col2,col3 = st.columns([0.5,1,0.5])
