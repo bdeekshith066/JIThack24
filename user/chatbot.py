@@ -63,7 +63,7 @@ def app():
     # Render the gradient text
     st.markdown(gradient_text_html, unsafe_allow_html=True)
     
-    st.image('divider.png')
+    
 
     st.write("""
     Please provide the following details in the text area below:
