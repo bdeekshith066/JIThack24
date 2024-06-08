@@ -8,3 +8,6 @@ easyocr
 
 googletrans
 openai
+speechrecognition
+numpy
+pandas
