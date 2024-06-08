@@ -1,0 +1,8 @@
+streamlit
+streamlit_option_menu
+cvzone
+mediapipe
+numpy
+cv2
+speech_recognition
+googletrans
