@@ -1,9 +1,10 @@
+
 streamlit
 streamlit_option_menu
 cvzone
 mediapipe
 numpy
-
+easyocr
 
 googletrans
 openai
