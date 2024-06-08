@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 st.set_page_config(layout="wide", page_title="NeuroWell",
         page_icon="🧠",)
 
-import home, chatbot, rehab, pedia, physio, snake
+import home, chatbot, rehab, pedia, physio
 
 
 
@@ -53,7 +53,7 @@ class MultiApp:
             
             app = option_menu(
                 menu_title='Sections',
-                options=['Home','Chatbot🤖' ,'Physio🏋‍♂', 'Rehab🧠', 'Info Pedia🌐', 'Gamify'],
+                options=['Home','Chatbot🤖' ,'Physio🏋‍♂', 'Rehab🧠', 'Info Pedia🌐'],
                 default_index=0,
             )
             
@@ -73,8 +73,7 @@ class MultiApp:
             rehab.app()
         elif app == "Info Pedia🌐":
             pedia.app()
-        elif app == "Gamify":
-            snake.app()
+        
            
 
 # Create an instance of the MultiApp class and run the app
