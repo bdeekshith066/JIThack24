@@ -222,7 +222,7 @@ def app():
 
     with col2:
         with st.form("Finger"):
-            st.form_submit_button("Finger")
+            finger_button = st.form_submit_button("Finger")
 
             if finger_button:
                 run_detection()
